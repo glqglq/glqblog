@@ -1,7 +1,7 @@
 # Site settings
-title: HyG
-email: gaohaoyang126@126.com
-description: 浩阳的博客 前端爱好者
+title: GLQ
+email: gongluqi@ict.ac.cn
+description: GLQ的博客 中科院计算所硕士研究生 数据挖掘/机器学习
 # > # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
 #   line in _config.yml. It will appear in your document head meta (for
@@ -10,7 +10,7 @@ description: 浩阳的博客 前端爱好者
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username:  Gaohaoyang
+github_username:  glqglq
 permalink: /:year/:month/:day/:title/
 
 # Build settings
