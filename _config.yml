@@ -117,7 +117,7 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  algorithm:/algorithm/
+  algorithm: /algorithm/
   categories: /categories/
   about: /about/
   archives: /archives/
@@ -135,7 +135,7 @@ menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
-  algorithm:th
+  algorithm: th
   categories: th
   about: user
   #schedule: calendar
