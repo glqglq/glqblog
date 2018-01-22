@@ -117,13 +117,13 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  algorithm: /algorithm/
-  prml: /prml/
-  nlp: /nlp/
-  categories: /categories/
-  about: /about/
-  archives: /archives/
-  tags: /tags/
+  algorithm: /content/algorithm/
+  prml: /content/prml/
+  nlp: /content/nlp/
+  categories: /content/categories/
+  about: /content/about/
+  archives: /content/archives/
+  tags: /content/tags/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
