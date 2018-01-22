@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: GLQ's BLOG
-subtitle: GLQ的博客
-description: 中科院计算所硕士研究生  数据挖掘/机器学习
-author: GLQ
+title: LuckyGong's BLOG
+subtitle: LuckyGong的博客
+description: 中科院计算所硕士研究生  NLP/数据挖掘/机器学习
+author: LuckyGong
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
@@ -151,9 +151,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
