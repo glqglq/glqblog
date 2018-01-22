@@ -118,6 +118,8 @@ index_with_subtitle: false
 menu:
   home: /
   algorithm: /algorithm/
+  prml: /prml/
+  nlp: /nlp/
   categories: /categories/
   about: /about/
   archives: /archives/
@@ -136,6 +138,8 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   algorithm: th
+  prml: th
+  nlp: th
   categories: th
   about: user
   #schedule: calendar
