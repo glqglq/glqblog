@@ -140,7 +140,7 @@ menu_icons:
   algorithm: th
   prml: th
   nlp: th
-  categories: th
+  categories: heartbeat
   about: user
   #schedule: calendar
   archives: archive
