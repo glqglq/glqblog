@@ -3,22 +3,22 @@
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
 
-# Site
+# Site（基本设置）
 title: LuckyGong's BLOG
 subtitle: LuckyGong的博客
 description: 中科院计算所硕士研究生  NLP/数据挖掘/机器学习
 author: LuckyGong
-# Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
+
+# （语言） Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
 
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
+# URL（路径设置）:If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
+url: https://glqglq.github.io/glqblog
 baseurl:
 permalink: pretty
 
-# Pagination
+# Pagination（分页）
 paginate: 10
 #paginate_path: "/page:num/"
 #archive:
@@ -111,17 +111,16 @@ seo: false
 index_with_subtitle: false
 
 # ---------------------------------------------------------------
-# Menu Settings
+# Menu Settings（导航栏）
 # ---------------------------------------------------------------
 
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
+  categories: /categories/
   about: /about/
   archives: /archives/
   tags: /tags/
-
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -147,7 +146,7 @@ menu_icons:
 
 
 # ---------------------------------------------------------------
-# Scheme Settings
+# Scheme Settings（设计方案）
 # ---------------------------------------------------------------
 
 # Schemes
@@ -233,7 +232,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-avatar: http://ot0qvixbu.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170325102221.png
+avatar: /assets/images/avatar.png
 
 
 # Table Of Contents in the Sidebar
