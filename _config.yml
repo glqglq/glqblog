@@ -142,12 +142,11 @@ menu_icons:
   nlp: th
   categories: heartbeat
   about: user
-  #schedule: calendar
   archives: archive
   tags: tags
   #sitemap: sitemap
   #commonweal: heartbeat
-
+  #schedule: calendar
 
 
 
