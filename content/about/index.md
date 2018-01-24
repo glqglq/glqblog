@@ -5,8 +5,6 @@ layout: page
 
 
 
-# GLQ
-
 ## 个人信息
 
 ------
