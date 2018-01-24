@@ -118,8 +118,8 @@ index_with_subtitle: false
 menu:
   home: /
   algorithm: /tag/#/algorithm
-  prml: /content/prml/
-  nlp: /content/nlp/
+  prml: /tag/#/prml
+  nlp: /tag/#/nlp
   categories: /content/categories/
   about: /content/about/
   archives: /content/archives/
