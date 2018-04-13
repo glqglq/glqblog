@@ -6,8 +6,6 @@
     title: [Papper]Deep Residual Learning for Image Recognition
     categories:
     tags:
-    - papper
-    - CV
 ---
 
 # 摘要

@@ -6,9 +6,6 @@
     title: [Papper]Learning both Weights and Connections for Efficient
     categories:
     tags:
-    - papper
-    - modelcompression
-    - prune
 ---
 
 # 1.摘要

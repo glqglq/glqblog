@@ -6,9 +6,6 @@
     title: [Papper]Distilling the Knowledge in a Neural Network
     categories:
     tags:
-    - papper
-    - modelcompression
-    - knowledgedistillation
 ---
 
 # 1.背景
