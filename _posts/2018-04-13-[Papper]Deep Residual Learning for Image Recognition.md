@@ -3,7 +3,7 @@
     comments: true
     date: 2018-04-13 20:27
     layout: post
-    title: [Papper]Deep Residual Learning for Image Recognition
+    title: 1
     categories:
     tags:
 ---
