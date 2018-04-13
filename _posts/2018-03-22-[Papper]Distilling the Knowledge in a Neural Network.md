@@ -1,9 +1,9 @@
 ---
     author: LuckyGong
     comments: true
-    date: 2018-04-13 20:27
+    date: 2018-03-22 20:27
     layout: post
-    title: 2
+    title: Papper-Distilling the Knowledge in a Neural Network
     categories:
     - modelcompression
     tags:

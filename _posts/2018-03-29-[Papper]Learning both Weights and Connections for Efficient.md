@@ -3,7 +3,7 @@
     comments: true
     date: 2018-03-29 20:27
     layout: post
-    title: 3
+    title: Papper-Learning both Weights and Connections for Efficient
     categories:
     - modelcompression
     tags:

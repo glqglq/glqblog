@@ -1,9 +1,9 @@
 ---
     author: LuckyGong
     comments: true
-    date: 2018-04-13 20:27
+    date: 2018-04-07 20:27
     layout: post
-    title: 1
+    title: Papper-Deep Residual Learning for Image Recognition
     categories:
     - CV
     tags:
