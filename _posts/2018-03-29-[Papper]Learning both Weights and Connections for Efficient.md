@@ -3,7 +3,7 @@
     comments: true
     date: 2018-03-29 20:27
     layout: post
-    title: [论文]Learning both Weights and Connections for Efficient
+    title: [Papper]Learning both Weights and Connections for Efficient
     categories:
     - 模型压缩
     tags:

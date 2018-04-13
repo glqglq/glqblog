@@ -3,7 +3,7 @@
     comments: true
     date: 2018-03-22 20:27
     layout: post
-    title: [论文]Distilling the Knowledge in a Neural Network
+    title: [Papper]Distilling the Knowledge in a Neural Network
     categories:
     - modelcompression
     tags:

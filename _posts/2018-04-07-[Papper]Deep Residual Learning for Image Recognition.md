@@ -3,7 +3,7 @@
     comments: true
     date: 2018-04-07 20:27
     layout: post
-    title: [论文]Deep Residual Learning for Image Recognition
+    title: [Papper]Deep Residual Learning for Image Recognition
     categories:
     - CV
     tags:
