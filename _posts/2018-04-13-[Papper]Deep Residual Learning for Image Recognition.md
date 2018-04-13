@@ -5,7 +5,10 @@
     layout: post
     title: 1
     categories:
+    - CV
     tags:
+    - CV
+    - papper
 ---
 
 # 摘要

@@ -3,9 +3,12 @@
     comments: true
     date: 2018-03-29 20:27
     layout: post
-    title: [Papper]Learning both Weights and Connections for Efficient
+    title: 3
     categories:
+    - modelcompression
     tags:
+    - modelcompression
+    - papper
 ---
 
 # 1.摘要

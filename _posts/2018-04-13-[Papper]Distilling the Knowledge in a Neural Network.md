@@ -3,9 +3,12 @@
     comments: true
     date: 2018-04-13 20:27
     layout: post
-    title: [Papper]Distilling the Knowledge in a Neural Network
+    title: 2
     categories:
+    - modelcompression
     tags:
+    - modelcompression
+    - papper
 ---
 
 # 1.背景
