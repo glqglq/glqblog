@@ -120,6 +120,8 @@ menu:
   algorithm: /tag/#/algorithm
   prml: /tag/#/prml
   nlp: /tag/#/nlp
+  cv: /tag/#/CV
+  modelcompression: /tag/#/模型压缩
   categories: /content/categories/
   about: /content/about/
   archives: /content/archives/
@@ -140,6 +142,8 @@ menu_icons:
   algorithm: th
   prml: th
   nlp: th
+  cv: th
+  modelcompression: th
   categories: heartbeat
   about: user
   archives: archive
