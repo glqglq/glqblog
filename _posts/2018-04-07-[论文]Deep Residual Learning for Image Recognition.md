@@ -7,7 +7,7 @@
     categories:
     - CV
     tags:
-    - 论文
+    - papper
     - CV
 ---
 

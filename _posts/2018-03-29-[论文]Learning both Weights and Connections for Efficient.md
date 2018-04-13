@@ -7,9 +7,9 @@
     categories:
     - 模型压缩
     tags:
-    - 论文
-    - 模型压缩
-    - 剪枝
+    - papper
+    - modelcompression
+    - prune
 ---
 
 

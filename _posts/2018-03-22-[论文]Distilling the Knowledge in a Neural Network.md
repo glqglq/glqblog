@@ -5,11 +5,11 @@
     layout: post
     title: [论文]Distilling the Knowledge in a Neural Network
     categories:
-    - 模型压缩
+    - modelcompression
     tags:
-    - 论文
-    - 模型压缩
-    - 知识迁移
+    - papper
+    - modelcompression
+    - knowledgedistillation
 ---
 
 
