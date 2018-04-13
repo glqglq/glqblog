@@ -11,6 +11,8 @@ menu:
   algorithm: 算法
   prml: 机器学习
   nlp: NLP与知识图谱
+  cv: 计算机视觉
+  modelcompression: 模型压缩
   archives: 归档
   categories: 分类
   tags: 标签
