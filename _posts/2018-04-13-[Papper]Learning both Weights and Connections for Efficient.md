@@ -5,7 +5,7 @@
     layout: post
     title: [Papper]Learning both Weights and Connections for Efficient
     categories:
-    - 模型压缩
+    - modelcompression
     tags:
     - papper
     - modelcompression
