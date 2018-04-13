@@ -3,13 +3,12 @@
     comments: true
     date: 2018-04-13 20:27
     layout: post
-    title: 70.Climbing Stairs
+    title: [Papper]Deep Residual Learning for Image Recognition
     categories:
-    - algorithm
+    - papper
     tags:
-    - leetcode
-    - algorithm
-    - 第一遍取得最优解
+    - papper
+    - CV
 ---
 
 # 摘要
