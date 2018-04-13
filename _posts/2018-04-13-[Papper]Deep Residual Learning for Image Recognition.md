@@ -5,7 +5,6 @@
     layout: post
     title: [Papper]Deep Residual Learning for Image Recognition
     categories:
-    - papper
     tags:
     - papper
     - CV

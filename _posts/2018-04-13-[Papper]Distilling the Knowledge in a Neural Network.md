@@ -5,7 +5,6 @@
     layout: post
     title: [Papper]Distilling the Knowledge in a Neural Network
     categories:
-    - modelcompression
     tags:
     - papper
     - modelcompression
