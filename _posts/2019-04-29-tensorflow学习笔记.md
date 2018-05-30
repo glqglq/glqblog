@@ -24,3 +24,10 @@
   - tf.train.RMSPropOptimizer
 
 - session与InteractiveSession ：https://blog.csdn.net/qq_14839543/article/details/77822916
+
+- tf.multipy()、tf.matmul()、tf.scalar_mul()区别：
+
+  - http://www.mamicode.com/info-detail-2295769.html
+  - https://www.jianshu.com/p/2a83eac1e35e
+
+- 交叉熵函数区别：
