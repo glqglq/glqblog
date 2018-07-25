@@ -8,7 +8,7 @@
     - ad
     tags:
     - ad
-    - papper
+    - paper
 ---
 
 
