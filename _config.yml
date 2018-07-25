@@ -119,6 +119,7 @@ menu:
   home: /
   algorithm: /tag/#/algorithm
   prml: /tag/#/prml
+  ad: /tag/#/ad
   nlp: /tag/#/nlp
   cv: /tag/#/cv
   modelcompression: /tag/#/modelcompression
@@ -141,6 +142,7 @@ menu_icons:
   home: home
   algorithm: th
   prml: th
+  ad: th
   nlp: th
   cv: th
   modelcompression: th
