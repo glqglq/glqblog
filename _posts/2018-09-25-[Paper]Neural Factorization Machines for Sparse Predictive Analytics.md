@@ -3,7 +3,7 @@ author: LuckyGong
 comments: true
 date: 2018-09-25 22:52:52
 layout: post
-title: Paper-Factorization Machines
+title: Paper-Neural Factorization Machines for Sparse Predictive Analytics
 categories:
 - ad
 tags:
