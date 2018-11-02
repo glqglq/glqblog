@@ -1,9 +1,9 @@
 ---
     author: LuckyGong
     comments: true
-    date: 2018-10-30 20:27
+    date: 2018-11-02 20:27
     layout: post
-    title: Papper-Like What You Like Knowledge Distill via neuron selectivity transfer
+    title: Papper-A Gift from Knowledge Distillation:Fast Optimization,Network Minimization and Transfer Learning
     categories:
     - modelcompression
     tags:

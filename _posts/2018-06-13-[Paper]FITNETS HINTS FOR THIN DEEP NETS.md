@@ -1,3 +1,17 @@
+---
+    author: LuckyGong
+    comments: true
+    date: 2018-06-13 20:27
+    layout: post
+    title: Papper-FITNETS HINTS FOR THIN DEEP NETS
+    categories:
+    - modelcompression
+    tags:
+    - modelcompression
+    - papper
+
+---
+
 # Abstract
 
 - 网络加深会提升性能，但会难以训练
