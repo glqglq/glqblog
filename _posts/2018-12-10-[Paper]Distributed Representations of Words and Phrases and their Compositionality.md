@@ -1,9 +1,9 @@
 ---
     author: LuckyGong
     comments: true
-    date: 2018-11-30 20:27
+    date: 2018-12-10 20:27
     layout: post
-    title: Paper-A Neural Probabilistic Language Model
+    title: Paper-Distributed Representations of Words and Phrases and their Compositionality
     categories:
     - nlp
     tags:
@@ -88,28 +88,17 @@
 - 模型：
 
   - 组成：
-    - 第一部分：一个映射C，从词表中的任意元素i到实向量C(i)∈Rm。它代表关联词表中词的分布特征向量。在实践中，C被表示成一个|V|×m的自由参数矩阵。 该过程将通过特征映射得到的C(wt−n+1),...,C(wt−1) 合并（concate）成一个 1 * (n−1)m的一维向量：(C(wt−n+1),...,C(wt−1))
-    - 第二部分：词上的概率函数g（g是前馈或递归神经网络）将输入的词向量序列转化为一个1 * |V|的概率分布y∈R^|V|。g的输出向量的第i个元素表示词序列中第t个词是V_i的概率。
-
+    - 第一部分：一个映射C，从词表中的任意元素i到实向量C(i)∈Rm。它代表关联词表中词的分布特征向量。在实践中，C被表示成一个|V|×m的自由参数矩阵。 
+    - 第二部分：词上的概率函数g，从输入序列的词的“上文”（前n个词，n-gram）特征向量，(C(wt-n+1),…,C(wt-1))，到词表中下一个词i的条件概率分布。g的输出是一个向量，向量的第i个元素估计概率![](http://images.cnitblog.com/blog/590456/201409/012055383919237.png)
   - 公式：
 
-    - 目标是训练以下模型：
+  ![](http://images.cnitblog.com/blog/590456/201409/012053476259576.png)
 
-      ![](http://images.cnitblog.com/blog/590456/201409/012056073913245.png)![](http://images.cnitblog.com/blog/590456/201409/012053476259576.png)
+  ![](http://images.cnitblog.com/blog/590456/201409/012056073913245.png)
 
-    - 神经网络：
+  ![](http://images.cnitblog.com/blog/590456/201409/012058338752792.png)
 
-      - 模型：
-
-      ![](http://images.cnitblog.com/blog/590456/201409/012058224075529.png)
-
-      其中：![](http://images.cnitblog.com/blog/590456/201409/012058338752792.png)
-
-      - 输入：x=(C(wt−n+1),...,C(wt−1))
-      - 参数：
-        - 可选参数W∈R^(|V|×(n−1)m)，如果输入层与输出层没有直接相连（如图中绿色虚线所示），则可令W=0。
-        - 输入层到隐含层的权重矩阵H∈R^(h×(n−1)m)
-        - 隐含层到输出层的权重矩阵U∈R|V|×h
+  ![](http://images.cnitblog.com/blog/590456/201409/012058224075529.png)
 
   - 约束：
     - ![](http://images.cnitblog.com/blog/590456/201409/012054013287723.png)
