@@ -38,6 +38,7 @@
 
 
 
+
 - 模型：其中vw和vw′分别为w的输入和输出向量表示，W为词表中单词数。W通常会达到10^5-10^7量级。
 
 $$
@@ -56,12 +57,18 @@ $$
 
 - 虽然NCE可以最大化softmax的对数概率，但是Skipgram模型只关注学习高质量的向量表示，因此只要向量表示保持其质量，我们可以随意简化NCE。
 
-- 负采样目标函数：
+- 目标函数：
 
   ![](https://images2018.cnblogs.com/blog/1021563/201806/1021563-20180602172503575-1577812780.png)
 
 - 符号：
-  - Pn(w)：目标词不是w的上下文的概率分布
+
+  - Pn(w)：目标词不是w的上下文的概率分布（来自噪声）
+  - k：对于每个数据样本存在k个负样本， 5-20范围内的k值对于小型训练数据集是有用的，而对于大型数据集，k可以小到2-5。
+
+- 采样函数：使用“一元模型分布（unigram distribution）”来选择“negative words”。一个单词被选作negative sample的概率跟它出现的频次有关，出现频次越高的单词越容易被选作negative words。公式中开3/4的根号完全是基于经验的，论文中提到这个公式的效果要比其它公式更加出色。
+
+  ![](http://www.zhihu.com/equation?tex=P%28w_i%29%3D%5Cfrac%7Bf%28w_i%29%5E%7B3%2F4%7D%7D%7B%5Csum_%7Bj%3D0%7D%5En%28f%28w_j%29%5E%7B3%2F4%7D%29%7D)
 
 ## 2.3频繁词子采样
 
@@ -95,6 +102,7 @@ $$
   $$
 
 
+
 # 5.Additive Compositionality
 
 - 在模型中训练的词向量存在着如下的线性结构关系：vec(Russian)+vec(river) = vec(Volga River).这种可能可以理解成词向量其实是包含了它的分布特性在向量表示中，因为词向量就是通过用目标词的词向量预测它的上下文中的词来训练词向量的。所以它会在向量中包含它的上下文信息。Volga River很频繁的与Russian以及River出现在相同的语境中。而向量加法操作可以看成是两个词语的上下文分布的并操作，因为只有两个向量都很大的维度，才会在结果向量中比较突出，代表这个语义更明显。所以在Russian与river的并操作上下文中，Volga River的上下文也与其类似，所以它们的词向量也很接近。
@@ -107,3 +115,5 @@ $$
 # 参考文献
 
 - http://qiancy.com/2016/08/24/word2vec-negative-sampling/
+- https://zhuanlan.zhihu.com/p/39684349
+- https://www.cnblogs.com/pinard/p/7249903.html
