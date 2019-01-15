@@ -42,7 +42,7 @@
 - 模型：其中vw和vw′分别为w的输入和输出向量表示，W为词表中单词数。W通常会达到10^5-10^7量级。
 
 $$
-p(w_O|w_I)=\frac{{exp}({v'_{w_O}}^{\rm T}v_{w_I})}{\sum_{w=1}^W {exp}({v'_w}^{T}v_{w_I})}\tag{2}
+p(w_O|w_I)=\frac{{exp}({v'_{w_O}}^{T}v_{w_I})}{\sum_{w=1}^W {exp}({v'_w}^{T}v_{w_I})}\tag{2}
 $$
 
 ## 2.1分层softmax
