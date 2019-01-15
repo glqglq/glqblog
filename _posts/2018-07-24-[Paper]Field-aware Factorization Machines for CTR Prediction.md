@@ -53,7 +53,11 @@
 
 - FFM的想法源于PITF[7]，PITF用于具有个性化标签的推荐系统。 在PITF中，它们假定三个可用字段，包括user，item和tag，以及在单独的隐空间中分解（user，item），（user，tag）和（item，tag）。 在[8]中，他们将PITF推广到更多字段（例如，AdID，AdvertiserID，UserID，QueryID），并将其有效地应用于CTR预测。 因为[7]的目标是推荐系统，并且仅限于三个特定域（user，item和tag），[8]缺乏关于FFM的详细讨论，在本节中我们提供了关于CTR预测的FFM的更全面的研究。 对于大多数CTR来说，特征可以被group为field。 在上述例子中ESPN，Vogue，NBC可以被group成Publisher，而Nike，Gucci，Adidas属于Advertiser，FFM会充分利用group的信息。 
 
-- FM中每个特征只有一个隐向量表示，这个隐向量被用来学习与其他任何特征之间的影响。 考虑ESPN，w(ESPN)被用来学习与Nike的隐性影响w(ESPN)*w(Nike)，还被用来学习与Male的影响w(ESPN)*w(Male),然而由于Nike和Male属于不同的域，它们的隐性影响是不一样的。 在FFMs里面，每个特征会有几个不同的隐向量，上述例子的FFMs表示如下：
+- FM中每个特征只有一个隐向量表示，这个隐向量被用来学习与其他任何特征之间的影响。 考虑ESPN，w(ESPN)被用来学习与Nike的隐性影响w(ESPN)*w(Nike)，还被用来学习与Male的影响w(ESPN)*w(Male),然而由于Nike和Male属于不同的域，它们的隐性影响是不一样的。
+
+- FFM模型认为vi不仅跟xi有关系，还跟xj所属的Field有关系，即vi成了一个二维向量vF×K，F是Field的总个数。
+
+-  在FFMs里面，每个特征会有几个不同的隐向量，上述例子的FFMs表示如下：
 
    ![](https://pic4.zhimg.com/80/v2-5fb0cda9cf5d4a192d275809a70ad1d1_hd.jpg)
 
