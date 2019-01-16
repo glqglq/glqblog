@@ -5,9 +5,9 @@
     layout: post
     title: Papper-DeepFM A Factorization-Machine based Neural Network for CTR Prediction
     categories:
-    - nlp
+    - ad
     tags:
-    - nlp
+    - ad
     - papper
 ---
 
