@@ -43,8 +43,7 @@
   - fk对应于一个树结构q和叶子权重们w
   - wi是第i个叶子节点的score（连续值）
 
-
-![](http://7xiegr.com1.z0.glb.clouddn.com/xgboost_1.PNG)
+![](https://www.mayi888.com/wp-content/uploads/2018/12/8a5adca27b799741caabbdeae20be5cf.jpg)
 
 ![](http://7xiegr.com1.z0.glb.clouddn.com/xgboost_2.PNG)
 
