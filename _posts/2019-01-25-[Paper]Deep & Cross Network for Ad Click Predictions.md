@@ -5,9 +5,9 @@
     layout: post
     title: Papper-Deep & Cross Network for Ad Click Predictions
     categories:
-    - nlp
+    - ad
     tags:
-    - nlp
+    - ad
     - papper
 ---
 

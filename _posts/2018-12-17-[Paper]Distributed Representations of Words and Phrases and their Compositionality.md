@@ -35,10 +35,6 @@
   \frac{1}{T}\sum_{t=1}^T\sum_{-c\leq j\leq c,j\ne0}{log}p(w_{t+j}|w_t)\tag{1}
   $$
 
-
-
-
-
 - 模型：其中vw和vw′分别为w的输入和输出向量表示，W为词表中单词数。W通常会达到10^5-10^7量级。
 
 $$
@@ -117,3 +113,4 @@ $$
 - http://qiancy.com/2016/08/24/word2vec-negative-sampling/
 - https://zhuanlan.zhihu.com/p/39684349
 - https://www.cnblogs.com/pinard/p/7249903.html
+- https://blog.csdn.net/imsuhxz/article/details/82115681
