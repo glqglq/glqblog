@@ -3,7 +3,7 @@
     comments: true
     date: 2018-12-20 20:27
     layout: post
-    title: Papper-word2vec Explained: Deriving Mikolov et al.’s Negative-Sampling Word-Embedding Method
+    title: Paper-word2vec Explained: Deriving Mikolov et al.’s Negative-Sampling Word-Embedding Method
     categories:
     - nlp
     tags:

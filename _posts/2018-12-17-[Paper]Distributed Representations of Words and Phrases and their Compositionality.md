@@ -3,7 +3,7 @@
     comments: true
     date: 2018-12-17 20:27
     layout: post
-    title: Papper-Distributed Representations of Words and Phrases and their Compositionality
+    title: Paper-Distributed Representations of Words and Phrases and their Compositionality
     categories:
     - nlp
     tags:
