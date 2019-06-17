@@ -223,4 +223,3 @@
   - 自适应正则方法GAUC上涨0.7%，第一个epoch后几乎看不到过拟合，第二个epoch完成后验证集上看出几乎收敛。
   - dropout方法在第一个epoch收敛慢，在第一个epoch完成后过拟合在某种程度得到缓解。
   - filter在第一个epoch中保持与不加filter相同的收敛速度，在第一个epoch后，过拟合也得到了缓解，但比dropout更糟糕。
-  - 
